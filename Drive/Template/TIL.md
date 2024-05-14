@@ -1,4 +1,4 @@
-<% tp.date.now("DD. MMMM YYYY", 0, tp.file.title, "YYYY-MM-DD") %>
+<% tp.date.now("DD. MM YYYY", 0, tp.file.title, "YYYY-MM-DD") %>
 
 ```table-of-contents
 title: 
