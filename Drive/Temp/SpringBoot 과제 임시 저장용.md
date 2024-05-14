@@ -29,4 +29,10 @@ FROM (SELECT s.student_code, s.name, e.exam_seq, e.score
 FROM student s join exam e on s.student_code = e.student_code) a join manager m on a.student_code = m.student_code  
 WHERE m.name = 'managerA';  
   
-# 문제 5.STUDENT 테이블에서 수강생이 삭제될 경우 EXAM 테이블에서 해당 수강생의 성적과 MANAGER 테이블에서 관리하는 목록에서 자동 삭제
+# 문제 5.STUDENT 테이블에서 수강생이 삭제될 경우 EXAM 테이블에서 해당 수강생의 성적과 MANAGER 테이블에서 관리하는 목록에서 자동 삭제  
+ALTER TABLE EXAM DROP CONSTRAINT exam_fk_student_code;  
+ALTER TABLE EXAM ADD CONSTRAINT exam_fk_student_code FOREIGN KEY(student_code) REFERENCES STUDENT(student_code) ON DELETE CASCADE;  
+ALTER TABLE MANAGER DROP CONSTRAINT manager_fk_student_code;  
+ALTER TABLE MANAGER ADD CONSTRAINT manager_fk_student_code FOREIGN KEY(student_code) REFERENCES STUDENT(student_code) ON DELETE CASCADE;  
+  
+DELETE FROM STUDENT WHERE student_code = 's1';
