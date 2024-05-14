@@ -1,4 +1,4 @@
-
+<% tp.file.title %>
 ```table-of-contents
 title: 
 style: nestedList # TOC style (nestedList|inlineFirstLevel)
@@ -19,4 +19,4 @@ debugInConsole: false # Print debug info in Obsidian console
 
 
 
-[[TIL]]
+[[TIL/TIL]]
