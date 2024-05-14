@@ -1,4 +1,4 @@
-<% tp.file.title {{date}} %>
+<% tp.file.title  %>
 
 ```table-of-contents
 title: 
