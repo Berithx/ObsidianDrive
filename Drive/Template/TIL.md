@@ -1,5 +1,4 @@
-<% tp.file.title tp.date.now("M. DD(ddd)") %>
-<% tp.file.creation_date("dddd Do MMMM YYYY HH:mm")%>
+[<% tp.file.title tp.date.now("M. DD(ddd)") %>](<%3C% tp.date.now(“DD. MMMM YYYY”, 0, tp.file.title, “YYYY-MM-DD”) %>)
 
 ```table-of-contents
 title: 
