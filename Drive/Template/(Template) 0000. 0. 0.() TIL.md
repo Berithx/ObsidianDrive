@@ -1,5 +1,4 @@
-# {{title}}
-create at : {{date}} {{time}}
+
 ```table-of-contents
 title: 
 style: nestedList # TOC style (nestedList|inlineFirstLevel)
