@@ -7,6 +7,10 @@ includeLinks: true # Make headings clickable
 debugInConsole: false # Print debug info in Obsidian console
 ```
 
-# 1. 아아아
+# 1. 
+##     ■
+
+
+
 
 [[TIL]]
