@@ -4,4 +4,4 @@
 - 활성화 후 Controller에서 html를 찾는 경로가 `/resouces/templates`로 설정된다.
 
 
-[[Spring]]
+[[Template Engine]]
