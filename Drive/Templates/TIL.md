@@ -1,5 +1,3 @@
-[<% tp.file.rename(tp.date.now("M. DD.(ddd)")) %>)
-
 ```table-of-contents
 title: 
 style: nestedList # TOC style (nestedList|inlineFirstLevel)
@@ -13,3 +11,9 @@ debugInConsole: false # Print debug info in Obsidian console
 ## ■
 
 ### - 
+
+
+
+
+
+<% tp.file.rename(tp.date.now("M. DD.(ddd)")) %>
