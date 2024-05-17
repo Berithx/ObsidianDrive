@@ -1,4 +1,4 @@
-[<% tp.file.rename(tp.date.now("M. DD")) %>)
+[<% tp.file.rename(tp.date.now("M. DD(aaa)")) %>)
 
 ```table-of-contents
 title: 
