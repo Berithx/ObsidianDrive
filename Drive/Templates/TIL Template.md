@@ -16,5 +16,5 @@ debugInConsole: false # Print debug info in Obsidian console
 
 
 
-<% tp.file.rename(tp.date.now("M. DD.(ddd)")) %>
+<% tp.file.rename(tp.date.now("M. D.(ddd)")) %>
 [[Templates]]
