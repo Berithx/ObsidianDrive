@@ -1,1 +1,1 @@
-[[JPA]]
+[[SpringBoot]], [[JPA]]
