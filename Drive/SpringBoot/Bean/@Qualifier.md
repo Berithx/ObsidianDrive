@@ -1,1 +1,1 @@
-[[Bean]]
+[[Bean]], [[annotation]]
