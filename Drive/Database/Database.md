@@ -9,4 +9,4 @@ _sort:
 _template: ""
 _templateName: ""
 ---
-[[Database123]]
+[[Database]]
