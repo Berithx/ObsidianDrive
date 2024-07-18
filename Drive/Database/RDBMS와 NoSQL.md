@@ -2,7 +2,10 @@ RDBMS(관계형 데이터베이스 관리 시스템)
 
 
 NoSQL(비관계형 데이터베이스)
-- Non-Relational Operational Database 또는 Not Only DQL
+- Non-Relational Operational Database 또는 Not Only SQL
 - 관계형 데이터를 지양하여 데이트를 비정형적으로 분산되게 저장하고 조회하는데 특화된 데이터베이스로 스키마 없이 사용하거나 느슨한 스키마를 제공한다.
 - 주로 대량의 데이터를 다루는 빅데이터나 분산 시스템 환경에서 사용하는 경향이 있다.
-- RDBMS가 일관성과 유용성을 목적으로 하였다면 NoSQL은 확장성과 유소
+- RDBMS가 일관성이 중점이었다면 NoSQL은 확장성에 중점을 두고 있다.
+
+- 데이터 간의 관계를 정의하지 않는다.
+- RDBMS에 비해 더 많은 대용량 데이터를 저
