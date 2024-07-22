@@ -1,3 +1,4 @@
 CORS - 교차 출처 리소스 공유
 - 도메인이 다른 서버끼리 리소스를 주고 받을 때 보안을 위해 설정된 정책
-- 도메인 차이의 기준은 URL 구성 요소 중 Protocol, Host, Port 
+- 도메인 차이의 기준은 URL 구성 요소 중 Protocol, Host, Port에 따른다.
+- 위 세 요소가 동일하면 Origin 소스로 
