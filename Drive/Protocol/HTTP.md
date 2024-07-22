@@ -1,17 +1,18 @@
 HTTP 메소드
 1. GET
+     - 데이터를 조회하는 메서드로
      - 
 2. POST
      - 
 3. PUT
      - 
-5. DELETE
+4. DELETE
      - 
-6. PATCH
+5. PATCH
      - 
-7. HEAD
+6. HEAD
      - 
-8. OPTIONS
+7. OPTIONS
      - 
-9. CONNECT
+8. CONNECT
      - 
